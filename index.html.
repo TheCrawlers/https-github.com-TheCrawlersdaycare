@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Daycare</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    nav {
+      margin-bottom: 20px;
+      background-color: #f8f8f8;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #2a7ae2;
+      font-weight: bold;
+    }
+    h1, h2 {
+      color: #2a7ae2;
+    }
+    .policy {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f0f8ff;
+    }
+    label {
+      display: block;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to [Your Daycare Name]</h1>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#application">Application Form</a>
+    <a href="#policies">Policies</a>
+  </nav>
+
+  <!-- About Section -->
+  <h2 id="about">About Us</h2>
+  <p>[Insert your About content here from Word doc]</p>
+
+  <!-- Application Form Section -->
+  <h2 id="application">Application Form</h2>
+  <p>Registration is compulsory. Please fill out all required fields:</p>
+  <form>
+    <label>Full Name: <input type="text" name="fullname" required></label>
+    <label>Child's Name: <input type="text" name="childname" required></label>
+    <label>Age: <input type="number" name="age" required></label>
+    <label>Parent Phone: <input type="tel" name="phone" required></label>
+    <label>Parent Email: <input type="email" name="email" required></label>
+    <label>
+      <input type="checkbox" required>
+      I confirm that I have read and understood the policies.
+    </label>
+    <button type="submit">Submit Application</button>
+  </form>
+
+  <!-- Policies Section -->
+  <h2 id="policies">Policies</h2>
+
+  <div class="policy">
+    <h3>Fee & Payment Policy</h3>
+    <p>Fees: R900 (children without pampers), R1000 (children wearing pampers). Registration fee: R400 for new children. December fees must be paid in October. Concert fee and graduation fee are compulsory and non-refundable. Late payments: R100 penalty.</p>
+    <label><input type="checkbox" required> I have read and understood the Fee & Payment Policy</label>
+  </div>
+
+  <div class="policy">
+    <h3>Attendance & Punctuality</h3>
+    <p>Daycare opens at 7:00am, closes school gates at 8:00am (even in holidays), ends at 5:00pm. Late pickup penalty: R20.</p>
+    <label><input type="checkbox" required> I have read and understood the Attendance & Punctuality Policy</label>
+  </div>
+
+  <div class="policy">
+    <h3>Nutrition Policy</h3>
+    <p>Parents are advised to give children fruits, vegetables, and water. No sweets, noodles, or chips allowed.</p>
+    <label><input type="checkbox" required> I have read and understood the Nutrition Policy</label>
+  </div>
+
+  <div class="policy">
+    <h3>Sickness Policy</h3>
+    <p>Children who are ill must stay at home to prevent infection. Forcefully bringing a sick child is not allowed.</p>
+    <label><input type="checkbox" required> I have read and understood the Sickness Policy</label>
+  </div>
+
+  <div class="policy">
+    <h3>Uniform Policy</h3>
+    <p>Uniform is compulsory. No child is allowed to attend without a school uniform.</p>
+    <label><input type="checkbox" required> I have read and understood the Uniform Policy</label>
+  </div>
+
+  <div class="policy">
+    <h3>Skill Development</h3>
+    <p>Extravaganza is cancelled. Crocheting and piano lessons are now compulsory for all children.</p>
+    <label><input type="checkbox" required> I have read and understood the Skill Development Policy</label>
+  </div>
+
+  <div class="policy">
+    <h3>Stationery Policy</h3>
+    <p>Stationery is compulsory, due by March 31. Late or missing stationery requires R1500 to cover stationery and toiletry fees. Fees are non-refundable.</p>
+    <label><input type="checkbox" required> I have read and understood the Stationery Policy</label>
+  </div>
+
+</body>
+</html>
